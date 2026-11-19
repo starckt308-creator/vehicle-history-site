@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore vehicle history reports with a clear, easy-to-understand demo experience.">
+  <title>Home</title><link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <header id="site-header"></header>
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="eyebrow-dot"></span> KNOW MORE BEFORE YOU BUY</span>
+        <h1>A clearer picture of <span>every vehicle.</span></h1>
+        <p class="hero-lead">Make your next car decision with more confidence. Explore a vehicle report experience designed to make important details easier to understand.</p>
+        <div class="hero-trust"><span>✓ Simple to use</span><span>✓ Clear report sections</span><span>✓ Privacy-minded</span></div>
+      </div>
+      <div class="lookup-card">
+        <div class="card-top"><div class="card-icon">⌕</div><div><h2>Start a vehicle lookup</h2><p>Enter a VIN to preview the report flow.</p></div></div>
+        <form id="lookup-form">
+          <label for="vin">Vehicle Identification Number (VIN)</label>
+          <input id="vin" name="vin" minlength="5" maxlength="24" placeholder="e.g. 1HGBH41JXMN109186" required autocomplete="off">
+          <p class="field-help">For this demo, any VIN-like entry opens a sample report.</p>
+          <button class="btn btn-primary btn-wide" type="submit">Preview vehicle report <span aria-hidden="true">→</span></button>
+        </form>
+        <div class="lookup-foot"><span class="lock-dot">⌑</span> Demo only · No live vehicle records are checked</div>
+      </div>
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+    </section>
+    <section class="stats container" aria-label="Report highlights">
+      <div><strong>01</strong><span>Vehicle overview</span></div><div><strong>02</strong><span>History checklist</span></div><div><strong>03</strong><span>Helpful next steps</span></div><div class="stats-note">Sample experience<br><b>Data provider not connected</b></div>
+    </section>
+    <section class="section container">
+      <div class="section-heading"><span class="eyebrow">BUILT FOR CLARITY</span><h2>Know what to look for.</h2><p>A vehicle report can help organize key questions before you make a purchase.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon blue">⌁</div><h3>Vehicle details</h3><p>Keep identification details and basic specifications in one easy-to-scan place.</p><span class="feature-number">01 / OVERVIEW</span></article>
+        <article class="feature-card"><div class="feature-icon amber">△</div><h3>History signals</h3><p>Understand which history checks matter and what to verify with reliable sources.</p><span class="feature-number">02 / CHECKS</span></article>
+        <article class="feature-card"><div class="feature-icon green">✓</div><h3>Next-step guidance</h3><p>Use a practical checklist to guide inspections and questions for the seller.</p><span class="feature-number">03 / GUIDANCE</span></article>
+      </div>
+    </section>
+    <section class="cta container"><div><span class="eyebrow">TAKE THE NEXT STEP</span><h2>Explore a sample report.</h2><p>See how vehicle information can be presented clearly. This example uses fictional demo data.</p></div><a class="btn btn-light" href="sample-report.html">View sample report <span>→</span></a></section>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="config.js"></script><script src="shared.js"></script><script src="app.js"></script>
+</body></html>
